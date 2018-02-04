@@ -1,71 +1,68 @@
 body {
   margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1, h3{
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: Extra-Bold;
-  text-shadow: 3px 3px 2px #16222A;
-  font-size: 42px;
   text-align-last: center;
-  margin-top: -44px;
-  padding-bottom: -10px;
 }
 
 h3 {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: medium;
-  font-size: 27px;
-  text-align-last: center;
-  margin-bottom: -46px;
-  padding: 34px;
+  font: 44px;
+}
+
+h1 {
+  font-size: 49px;
+}
+
+#services, #work {
+  margin-bottom: 50px;
+}
+
+#triangule {
+  height: 10vh;
+  padding-right: 405px;
+}
+
+#hero {
+  width: 170vh;
+  margin-top: 42px;
 }
 
 .little-1 {
   margin-bottom: 43px;
   font-weight: bolder;
-  padding-top: -44px;
   padding-bottom: 50px
 }
 
-p {
+.pink {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 23px;
   text-align-last: center;
-
+  background-color: #F17C72;
+  margin-top: -32px;
+  border: 18px solid #F17C72;
 }
 
 .little {
-  font-size: 14px;
-  color: white;
-  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   font-weight: lighter;
-  padding-top: -363px;
-}
-
-.black-text {
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: black;
+  margin-bottom: 93px;
 }
 
 .basic {
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .bullet {
   font-size: 12px;
-}
-
-.pink-center {
-  position: relative;
-  height: 18%;
-  width: 56%;
-  margin-left: 288px;
 }
 
 .white-head {
@@ -76,59 +73,86 @@ p {
   position: absolute;
 }
 
- .letter {
-  float: left;
-  position: relative;
-  top: auto;
-  margin-left: 9.5%;
-  margin-top: 1%;
-}
-
 .logo {
-  align-items: center;
-  width: 5%;
-  height: 5%;
   float: right;
-  margin-right: 140px;
-  /*margin-top: 18px;*/
 }
 
-.green-push, .home, img {
-   width: 100%;
-   position: relative;
+.space {
+  margin-top: 0;
 }
 
-.botton {
+.button {
   background-color: #2ECC71;
-  font-size: 16px;
-  margin: 54px;
-  padding: 14px;
-  border-width: 3px;
+  color: white;
+  border: 16px solid #2ECC71;
+  width: 126px;
+  height: 106px;
+  margin-bottom: 88px;
 }
 
-.home > p, H1, .green-push { /*Escribir texto en imágen*/
-  position: relative;
-  bottom: 450px;
+.menu {
+  background: white;
+  height: 10;
+  color: black;
+  font-weight: bold;
+  border: 18px solid #ffff;
 }
 
-.pink{
-width: 100%;
-height: 550px;
-background: #F17C72;
-margin-top: -355px; /*Subir posición base rosa pues quedó desfasado*/
-
+.home {
+  background-image: url("./../images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 550px;
+  text-align: center;
+  color: #ffff;
 }
 
-.center {
-  float: left;
-  position: relative;
-  display:inline-block;
+.space {
+  border: 69px solid transparent;
 }
-
 
 .icon {
-  width: 35%;
-  height: 35%;
+  height: 36vh;
   position: relative;
+  display: inline-block;
+}
 
+.letter {
+  display: inline-block;
+  text-align: right;
+  margin-right: 44px;
+}
+
+.information {
+  display: inline-block;
+  border: 55px solid #F17C72;
+  text-align: center;
+}
+
+.name {
+  width: 52vh;
+}
+
+.picture {
+  font-weight: bold;
+  display: inline-block;
+  display: clear;
+  border: 30px solid #ffff;
+}
+
+.copy {
+  background-color: #373B47;
+  color: #ffff;
+  border: 12px solid #373B47;
+  width: auto;
+  margin-top: 44px;
+}
+
+.two {
+  clear: both;
+}
+
+.three {
+  clear: both;
 }
